@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta charset="utf-8">
         <title>Google</title>
     </head>
     <body>
         <nav>
-            <a href="#About">About</a>
-            <a href="#Store">Store</a>
-            <a href="#Gmail">Gmail</a>
-            <a href="#Images">Images</a>
-            <a href="#Sign In"><Button>Sign In</Button></a>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Store">Store</a></li>
+                <div class="header">
+                <li><a href="#Gmail">Gmail</a></li>
+                <li><a href="#Images">Images</a></li>
+                <li><a href="#Apps"><i class="material-icons">apps</i></a></li>
+                <li><a href="#Sign In"><Button id="topright">Sign In</Button></a> </li>
+                </div>
+            </ul>
         </nav>
+        <div class="img">
         <img src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
         <form>
-            <input type="text" placeholder="">
-            <button>
+            <input id="searchbar" type="text" placeholder=" ">
+            
+            <br>
+            <button class="searchbutton">
                 Google Search
             </button>
-            <button>
+            <button class="searchbutton">
                 Im Feeling Lucky
             </button>
         </form>
+        </div>
         <footer>
             <ul>
                 <li><a href="#Advertising">Advertising</a></li>
                 <li><a href="#Business">Business</a></li>
                 <li><a href="#How Search Works">How Search Works</a></li>
-                <li><a href="#Privacy">Privacy</a></li>
-                <li><a href="#Terms">Terms</a></li>
-                <li><a href="#Settings">Settings</a></li>
+                <div class="footer">
+                    <li><a href="#Privacy">Privacy</a></li>
+                    <li><a href="#Terms">Terms</a></li>
+                    <li><a href="#Settings">Settings</a></li>
+                </div>
+                
             </ul>
         </footer>
     </body>
